@@ -7,7 +7,7 @@
 * Golang IDE
 
 * Postgres Container
-    * To install container with all needed variables just run these command:  docker run --name postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+    * To install container with all needed variables just run these command:  docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_HOST_AUTH_METHOD=trust -d postgres
     * [You can also refer to this guide if needed](https://hub.docker.com/_/postgres)
 
 </details>
